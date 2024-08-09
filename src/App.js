@@ -73,7 +73,7 @@ const App = () => {
       }).catch((err)=>{
     console.log("err")
       })
-  }, [products])
+  }, [])
   return (
     <>
       <ThemeProvider theme={theme}>
